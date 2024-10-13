@@ -1,5 +1,6 @@
 package org.example.entity;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
@@ -21,6 +22,7 @@ public class User {
     private String username;
     private String firstname;
     private String lastname;
+    @Column(name = "birth_date")
     private LocalDate birthDate;
     private Integer age;
 }
