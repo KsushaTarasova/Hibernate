@@ -19,6 +19,7 @@ public class User {
     private String username;
     private String firstname;
     private String lastname;
+    @Convert(converter = Birthday.class)
     @Column(name = "birth_date")
     private Birthday birthDate;
     @Enumerated(EnumType.STRING)
