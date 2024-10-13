@@ -10,6 +10,7 @@
     <property name="connection.password">70262057113233Kk</property>
     <property name="show_sql">true</property>
     <property name="format_sql">true</property>
+    <mapping class = "org.example.entity.User"/>
 
 
     <!-- DB schema will be updated if needed -->
