@@ -25,4 +25,5 @@ public class User {
     @Column(name = "birth_date")
     private LocalDate birthDate;
     private Integer age;
+    private Role role;
 }
